@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fullBody">
+
+        <div class="display"><input class="displayInput" id="displayInput" type="text" value='0'></div>
+        <div class="buttonall">
+            <button class="button" onclick="buttonRead(1)" id="b1">1</button>
+            <button class="button" onclick="buttonRead(2)" id="2">2</button>
+            <button class="button" onclick="buttonRead(3)" id="3">3</button>
+            <button class="button" onclick="buttonRead('/')" id="4">/</button>
+            <button class="button" onclick="buttonRead(4)" id="5">4</button>
+            <button class="button" onclick="buttonRead(5)" id="6">5</button>
+            <button class="button" onclick="buttonRead(6)" id="7">6</button>
+            <button class="button" onclick="buttonRead('*')" id="8">*</button>
+            <button class="button" onclick="buttonRead(7)" id="9">7</button>
+            <button class="button" onclick="buttonRead(8)" id="10">8</button>
+            <button class="button" onclick="buttonRead(9)" id="11">9</button>
+            <button class="button" onclick="buttonRead('-')" id="12">-</button>
+            <button class="button"  id="13">C</button>
+            <button class="button" onclick="buttonRead(0)" id="14">0</button>
+            <button class="button" id="15">=</button>
+            <button class="button" onclick="buttonRead('+')" id="16">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
